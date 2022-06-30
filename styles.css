@@ -1,0 +1,27 @@
+.time {
+    position: relative;
+    float: right;
+    bottom: 37px;
+}
+.chats {
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+}
+.chat-list {
+    width: 330px;
+    height: 600px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.messeges {
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    width: 70%;
+    padding: 10px;
+    height: 600px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
