@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    margin-left: 10px;
 }
 
 .time {
@@ -12,6 +13,10 @@ body {
     width: 320px;
     cursor: pointer;
     padding:1px 5px ;
+}
+.chatsa {
+    color: white;
+    background-color: powderblue;
 }
 .chats:hover {
     color: white;
@@ -26,10 +31,10 @@ body {
 .messeges {
     position: absolute;
     left: 354px;
-    top: 10px;
+    top: 1px;
     width: 71%;
     padding: 10px;
-    height: 608px;
+    height: 618px;
     overflow: scroll;
     overflow-x: hidden;
 }
