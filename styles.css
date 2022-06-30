@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .time {
     position: relative;
     float: right;
@@ -5,22 +9,27 @@
 }
 .chats {
     position: relative;
-    width: 300px;
+    width: 320px;
     cursor: pointer;
+    padding:1px 5px ;
+}
+.chats:hover {
+    color: white;
+    background-color: powderblue;
 }
 .chat-list {
-    width: 330px;
-    height: 600px;
+    width: 348px;
+    height: 640px;
     overflow: scroll;
     overflow-x: hidden;
 }
 .messeges {
     position: absolute;
-    left: 350px;
-    top: 20px;
-    width: 70%;
+    left: 354px;
+    top: 10px;
+    width: 71%;
     padding: 10px;
-    height: 600px;
+    height: 608px;
     overflow: scroll;
     overflow-x: hidden;
 }
