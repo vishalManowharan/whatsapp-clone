@@ -24,7 +24,7 @@ body {
 }
 #chat-list {
     width: 348px;
-    height: 640px;
+    height: 600px;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -34,7 +34,7 @@ body {
     top: 1px;
     width: 71%;
     padding: 10px;
-    height: 618px;
+    height: 600px;
     overflow: scroll;
     overflow-x: hidden;
 }
