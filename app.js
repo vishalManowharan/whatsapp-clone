@@ -11,9 +11,15 @@ function search () {
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     chatList = document.getElementById("chat-list");
-    chats = chatList.getElementsByClassName('div');
+    chats = chatList.getElementsByTagName('div');
     for (let i=0;i<chats.length;i++) {
-        a = chats[i].getElementsByClassName("h3");
+        a = chats[i].getElementsByTagName("h3")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            chats[i].style.display = "";
+        } else {
+            chats[i].style.display = "none";
+        }
     }
 }
 
