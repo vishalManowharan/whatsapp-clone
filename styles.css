@@ -39,3 +39,11 @@ body {
     overflow-x: hidden;
 }
 
+.search {
+    width: 320px;
+    padding:5px 0px;
+    margin: 10px 0px;
+}
+
+
+
