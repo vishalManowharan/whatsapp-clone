@@ -11,6 +11,7 @@ document.getElementsByClassName('chats')[1].addEventListener("click",add2);
 function add2 () {
     document.getElementsByClassName('chats')[1].classList.add("chatsa");
 }
+
 document.getElementsByClassName('chats')[2].addEventListener("click",add3);
 
 
